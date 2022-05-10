@@ -1,12 +1,16 @@
 <template>
   <div id="app">
+    <tips1></tips1>
   </div>
 </template>
 
 <script>
+import tips1 from './components/tips/tips1'
+
 export default {
   name: 'App',
   components: {
+    tips1
   }
 }
 </script>
